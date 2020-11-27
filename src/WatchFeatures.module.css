@@ -1,0 +1,20 @@
+.productfeatures{
+    display: inline-block;
+    border :5px;
+    margin: 5px;
+    padding: 15px;
+}
+.btn{
+    background-color: silver;
+    border-radius:10px;
+    border-width: 10px;
+    border-color:lightslategray;
+    padding: 10px;
+    opacity: 0.8;
+}
+.btntext{
+    color:rgba(3, 3, 3, 0.781);
+}
+.btn:hover {
+        opacity: 1.0;
+    }

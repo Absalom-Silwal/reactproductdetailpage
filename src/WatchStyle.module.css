@@ -1,0 +1,14 @@
+.watchstyle{
+    
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    border: 2px ;
+}
+.watchstyle > img{
+    height: 100px;
+    width: 100px;
+}
+.watchstyle > img:hover{
+    outline: 3px solid black;
+}

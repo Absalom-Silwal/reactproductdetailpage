@@ -1,0 +1,78 @@
+@media (max-width: 800px) {
+  .App {
+    flex-direction: row;
+  }
+}
+.App {
+  display: flex;
+  background-color: #f1f1f1;
+  height:1300px ;
+  text-align: center;
+}
+
+.App > div {
+  background-color: #f1f1f1;
+  height:100%;
+  width:50%;
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+  
+}
+.productdisplay > img {
+  height: 400px;
+  width: 400px;
+  position: fixed;
+  top:150px;
+  left:150px;
+
+}
+.title{
+  font-size: 20px;
+  padding: 15px;
+}
+.description{
+  font-size: 20px;
+  padding: 5px;
+}
+.productcolor{
+  display:inline-block;
+  padding: 5px;
+}
+.time{
+  right:330px;
+  position: fixed;
+  font-size: 50px;
+  top: 200px;
+  width: 100%;
+  color: beige;
+}
+.heartimgdisplayed{
+  right:330px;
+  top:220px;
+  position: fixed;
+  font-size: 50px;
+  width: 100%;
+}
+.buybtn{
+width: 100px;
+background-color:green;
+border-width: 5px;
+border-color:lightslategray;
+
+}
+.buybtn:hover{
+  outline-color: black;
+}
+.buytxt{
+  color:silver;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+
