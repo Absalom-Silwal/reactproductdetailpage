@@ -63,6 +63,8 @@ render(){
         <button className={fclasses.btn} onClick={this.onclicktimebtn}>Time</button>
         <button className={fclasses.btn} onClick={this.onclickheartbtn}>Heart Rate</button>
         </div>
+       <div> <button className={classes.buybtn} ><span className={classes.buytxt}>buy</span></button>
+       </div>
       </div>
     </div>
   );
